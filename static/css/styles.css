@@ -1,0 +1,66 @@
+body{
+    background-color: blanchedalmond;
+}
+.container-1{
+    border: 3px solid black;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto 10px;
+    color: brown;
+}
+
+.flex-box-container-1,
+.flex-box-rps, .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    display: flex;
+    border: 2px solid black;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.flex-box-container-1 div{
+    padding: 10px;
+    align-items: center;
+}
+.flex-box-container-1 img{
+    width: 20%;
+    height: 20%;
+    margin: 10px;
+    border-radius: 15%;
+    box-shadow: 1px 2px greenyellow;
+}
+.flex-box-rps img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px chocolate;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background: url(https://media.istockphoto.com/vectors/vector-realistic-isolated-green-poker-table-for-decoration-vector-id1299608766?k=20&m=1299608766&s=612x612&w=0&h=ZwlBIc1B5noT2uVZG9yighu1FLc5NoeWrk3KloKsdKM=) center;
+    color: whitesmoke;
+}
+.flex-blackjack-row-1 div{
+    /* border: 1px solid black; */
+    padding: 10px;
+    overflow-y: auto;
+    height: 350px;
+    flex: 1;
+}
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-blackjack-row-3 table,th,td{
+    border: 1px solid black;
+    padding: 5px;
+    color: black;
+    font-weight: bolder;
+}
